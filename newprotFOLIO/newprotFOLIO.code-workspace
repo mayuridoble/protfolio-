@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "TODO list project",
+			"path": "../Desktop/TODO list project"
+		},
+		{
+			"name": "newprotFOLIO",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "newprotFOLIO"
+	}
+}

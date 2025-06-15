@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Curriculum Vitae</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: #e4e6f0;
+      padding: 50px;
+    }
+
+    .container {
+      display: flex;
+      max-width: 1200px;
+      margin: auto;
+      background: #fff;
+      border: 1px solid #ccc;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .left {
+      width: 35%;
+      background: #94a3ed;
+      color: #fff;
+      padding: 40px 30px;
+    }
+
+    .right {
+      width: 65%;
+      padding: 40px 50px;
+    }
+
+    .left h2,
+    .right h3 {
+      margin-bottom: 25px;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+
+    .left p,
+    .left a {
+      margin-bottom: 12px;
+      color: #fff;
+      font-size: 14px;
+      display: block;
+      word-break: break-word;
+    }
+
+    .left a {
+      text-decoration: underline;
+    }
+
+    .section {
+      margin-bottom: 40px;
+    }
+
+    .section h3 {
+      border-bottom: 2px solid #2d3e90;
+      padding-bottom: 5px;
+      color: #5d166a;
+    }
+
+    .skills, .languages {
+      margin-top: 10px;
+    }
+
+    .skill-name {
+      margin-top: 15px;
+      font-weight: 600;
+    }
+
+    .dots span {
+      display: inline-block;
+      height: 10px;
+      width: 10px;
+      margin-right: 5px;
+      background: #d0d3dc;
+      border-radius: 50%;
+    }
+
+    .dots span.filled {
+      background: #fff;
+    }
+
+    .dots span.filled-blue {
+      background: #2d3e90;
+    }
+
+    ul {
+      padding-left: 20px;
+      margin-top: 10px;
+    }
+
+    ul li {
+      margin-bottom: 8px;
+      font-size: 14px;
+    }
+
+    .project a {
+      color: #2d3e90;
+    }
+
+    .bold {
+      font-weight: bold;
+    }
+
+    .project p {
+      margin: 8px 0;
+    }
+    @media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  .left, .right {
+    width: 100%;
+    padding: 20px;
+  }
+}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="left">
+      <h2>Details</h2>
+      <p><strong>Mayuri Doble</strong></p>
+      <p>Bhopal, India</p>
+      <p>Email ID: <a href="mailto:mayuridoble17@gmail.com">mayuridoble17@gmail.com</a></p>
+      <p>Social Links: <a href="#">http://127.0.0.1:5500/index.html#about</a></p>
+
+      <h2>Skills</h2>
+      <div class="skills">
+        <div class="skill-name">C</div>
+        <div class="dots">
+          <span class="filled"></span><span class="filled"></span><span></span><span></span><span></span>
+        </div>
+
+        <div class="skill-name">C++</div>
+        <div class="dots">
+          <span class="filled"></span><span class="filled"></span><span class="filled"></span><span></span><span></span>
+        </div>
+
+        <div class="skill-name">HTML/CSS/JavaScript</div>
+        <div class="dots">
+          <span class="filled"></span><span class="filled"></span><span class="filled"></span><span></span><span></span>
+        </div>
+
+        <div class="skill-name">Java</div>
+        <div class="dots">
+          <span class="filled"></span><span class="filled"></span><span class="filled"></span><span class="filled"></span><span></span>
+        </div>
+
+        <div class="skill-name">MySQL/JDBC/Servlet</div>
+        <div class="dots">
+          <span class="filled"></span><span class="filled"></span><span></span><span></span><span></span>
+        </div>
+
+        <div class="skill-name">Bootstrap</div>
+        <div class="dots">
+          <span class="filled"></span><span class="filled"></span><span class="filled"></span><span></span><span></span>
+        </div>
+
+        <div class="skill-name">DSA in C++ and Java</div>
+        <div class="dots">
+          <span class="filled"></span><span class="filled"></span><span class="filled"></span><span class="filled"></span><span></span>
+        </div>
+      </div>
+
+      <h2>Languages</h2>
+      <div class="languages">
+        <div class="skill-name">Hindi</div>
+        <div class="dots">
+          <span class="filled"></span><span class="filled"></span><span class="filled"></span><span class="filled"></span><span></span>
+        </div>
+
+        <div class="skill-name">English</div>
+        <div class="dots">
+          <span class="filled"></span><span class="filled"></span><span class="filled"></span><span class="filled"></span><span class="filled"></span>
+        </div>
+      </div>
+
+      <h2>Hobbies</h2>
+      <ul>
+        <li>Competitive Programming</li>
+        <li>Building Personal Projects</li>
+        <li>Dancing</li>
+        <li>Singing</li>
+      </ul>
+    </div>
+
+    <div class="right">
+      <div class="section">
+        <h3>Education</h3>
+        <p><strong>Aug 2023 - Aug 2027</strong></p>
+        <p><span class="bold">Bachelor of Technology in Computer Science and Engineering</span><br>CGPA: 8.12<br>Lakshmi Narayan College of Technology and Science (LNCT & S), Bhopal</p>
+      </div>
+
+      <div class="section">
+        <h3>Projects</h3>
+        <div class="project">
+          <p><strong>Jun 2025</strong></p>
+          <p class="bold">Tic Tac Toe Game</p>
+          <p><a href="http://127.0.0.1:5500/index.html" style="color:skyblue">http://127.0.0.1:5500/index.html</a></p>
+          <p>Developed a browser-based Tic Tac Toe game using HTML, CSS, and JavaScript. The game features a user-friendly interface, interactive gameplay, and win/draw logic for two players. Implemented game state tracking, turn switching, and a reset functionality. Emphasized clean UI design and responsive layout for a seamless user experience.</p>
+        </div>
+        <div class="project">
+          <p><strong>Jun 2025</strong></p>
+          <p class="bold">Personal Portfolio</p>
+          <p><a href="http://127.0.0.1:5500/index.html#about" style="color:skyblue">http://127.0.0.1:5500/index.html#about</a></p>
+          <p>It is my personal portfolio in which I have used my web development skills to make it attractive and responsive.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
